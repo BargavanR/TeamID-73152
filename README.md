@@ -36,22 +36,8 @@ This project aims to build a smart system that:
 | IoT / Hardware | Microcontrollers (Arduino / Raspberry Pi), sensors, actuator control |
 | Data & Messaging | (Specify MQTT, REST, WebSockets, database choice, etc.) |
 
-> ⚠️ The project currently contains the **frontend / dashboard** portion built using React, Vite, Tailwind, and shadcn-ui.  
+> ⚠️ The project currently contains the **frontend / dashboard** portion built using React, Vite, Tailwind, and shadcn-ui.
 
----
-TeamID-73152/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── assets/
-│ └── App.tsx & main entry files
-├── .gitignore
-├── package.json
-├── vite.config.ts
-├── tailwind.config.ts
-└── README.md
 
-## 📁 Repository Structure  
+
 
