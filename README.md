@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# Intelligent Pesticide Sprinkling System  
+**Determined by the Infection Level of a Plant**  
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/a8682bc2-31c6-48ef-b493-1e77c30c4e44
+## 📖 Overview  
 
-## How can I edit this code?
+Excessive and indiscriminate pesticide usage in agriculture leads to soil degradation, water contamination, harm to beneficial insects, and health risks for humans and animals. Traditional pesticide spraying methods treat all plants uniformly—regardless of their actual health status—resulting in chemical waste and environmental damage.
 
-There are several ways of editing your application.
+This project aims to build a smart system that:
 
-**Use Lovable**
+- Detects the infection level (e.g. healthy, mildly infected, severely infected) of individual plants using AI/ML models  
+- Controls an IoT-enabled sprayer to apply pesticide **only when and where needed**, in amounts proportional to infection severity  
+- Provides farmers with a user-friendly dashboard to monitor plant health, view trends, and control spraying remotely  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a8682bc2-31c6-48ef-b493-1e77c30c4e44) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 Key Features  
 
-**Use your preferred IDE**
+- **AI-based Plant Health Detection** — classify plant states from camera or sensor inputs  
+- **Precision Spraying** — variable pesticide dosage, targeted spraying  
+- **IoT Integration** — sensors (soil moisture, humidity, environment), GPS/geotag mapping  
+- **Interactive Dashboard** — real-time maps, charts, alerts, and controls  
+- **Trend Analytics & Reporting** — usage vs. effectiveness, cost savings, environmental impact  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Tech Stack  
 
-Follow these steps:
+| Layer | Tools / Libraries |
+|-------|--------------------|
+| Frontend | React, Vite, Tailwind CSS |
+| UI Components | shadcn-ui (or any design system) |
+| Backend / API | (Specify if using Node.js, Flask, etc.) |
+| AI / ML | (Specify framework: TensorFlow, PyTorch, OpenCV, etc.) |
+| IoT / Hardware | Microcontrollers (Arduino / Raspberry Pi), sensors, actuator control |
+| Data & Messaging | (Specify MQTT, REST, WebSockets, database choice, etc.) |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> ⚠️ The project currently contains the **frontend / dashboard** portion built using React, Vite, Tailwind, and shadcn-ui.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
+TeamID-73152/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ └── App.tsx & main entry files
+├── .gitignore
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📁 Repository Structure  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a8682bc2-31c6-48ef-b493-1e77c30c4e44) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
